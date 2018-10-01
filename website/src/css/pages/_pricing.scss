@@ -1,0 +1,160 @@
+.pricing {
+    .hero-section {
+        background-color: #fafafa;
+        width: 100%;
+        padding: 5rem 5rem;
+        @media (max-width: $media-md) {
+            padding-left: 2rem;
+        padding-right: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .container {
+            padding-left: 42px;
+            padding-right: 42px;
+            @media (max-width: $media-md) {
+                padding-left: 0px;
+            padding-right: 0px;
+            }
+        }
+    }
+        width: 100%;
+        background: url('/bg-hero-d-sp.svg');
+        background-size: cover;
+        display: inline-block;
+        min-height: calc(100vh - 170px);
+        padding: 0 0;
+    &__card {
+        margin: 5rem 1rem 2rem 1rem;
+        border-color: $dark-5;
+        border-width: 3px;
+        border-radius: 0.5rem;
+        padding: 1rem 1rem 1.5rem 1.5rem;
+        background-color: rgba(17,24,45,.65);
+        -webkit-backdrop-filter: saturate(160%) blur(10px);
+        backdrop-filter: saturate(160%) blur(10px);
+        text-align: left;
+        h1 {
+            color:#fafcfe;
+            font-size: 54px;
+            font-weight: 700;
+        }
+        h2 {
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: 400;
+        }
+        h3 {
+            text-align: right;
+            font-size: 68px;
+            font-weight: 600;
+            color: #ffffff;
+            padding-top: 22px;
+
+        }
+        small {
+            text-align: right;
+            font-size: 12px;
+            letter-spacing: 4px;
+            width: 100%;
+            padding-top: 16px;
+            padding-bottom: 6px;
+            display: block;
+        }
+        p {
+            color: #ffffff;
+        }
+        
+        .btn-pricing {
+            background-attachment: rgba(0,0,0,.125);
+            border: 2px solid rgba(13,151,255,.7);
+            color: #eaecee;
+            font-size: 18px;
+            font-weight: 400;
+            transition: all 250ms ease;
+            width: 124px;
+            margin-left: calc(100% - 124px);
+        }
+        .btn-pricing:hover {
+            box-shadow: 0px 0px 8px 1px rgba(13,151,255,.45);
+        }
+        .features {
+            line-height: 24px;
+        }
+
+        .contact {
+            @media (max-width: $media-md) {
+                padding-left: 1rem;
+                width: 100%;
+                max-width: 100%;
+            }
+            margin-right:0px;
+            text-align: right;
+            nobr {
+
+            }
+        }
+        &-list {
+            margin-bottom: 0;
+            &-heading {
+                padding: 2rem 0;
+                border-top-left-radius: 0.5rem;
+                border-top-right-radius: 0.5rem;
+                h5 {
+                    color: $green-9;
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                    letter-spacing: 2px;
+                    margin: 0;
+                }
+
+                &--paid {
+                    background-color: $dark-9;
+                    h5 {
+                        color: $light-5;
+                    }
+                }
+            }
+
+            &-item {
+                display: flex;
+                align-items: center;
+                padding: 1rem;
+
+                &:last-child {
+                    flex-direction: column;
+                    .btn {
+                        width: 100%;
+                        .material-icons {
+                            width: 32px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            margin: 0 0 0 4px;
+                        }
+                    }
+                    small {
+                        margin-top: 0.5rem;
+                    }
+                }
+
+                &-icon {
+                    min-width: 2.5rem;
+                    height: 2.5rem;
+                    background-color: $green-0;
+                    border-radius: 1.4rem;
+                    text-align: center;
+                    margin-right: 0.5rem;
+                    svg {
+                        height: 100% !important;
+                        path {
+                            fill: $green-5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

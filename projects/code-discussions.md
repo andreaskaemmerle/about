@@ -1,9 +1,12 @@
 ---
-title: Announcing code discussions for Sourcegraph
-description: Announcind the ability to discuss our code and roadmap on Sourcegraph.
-authors:
-  - Stephen Gutekanst
-releasedate: 2018-09-28
+title: 'Announcing code discussions for Sourcegraph'
+author: 'Stephen Gutenkanst'
+publishDate: 2018-10-01T00:00-07:00
+tags: [
+  "blog"
+]
+slug: announcing-code-discussions-for-sourcegraph
+heroImage: //images.ctfassets.net/le3mxztn6yoo/t4Qpcq5kA0AYM24Ws4mOk/4edf5502a936bbec90c262fa00355aed/sourcegraph-mark.png
 published: false
 ---
 
